@@ -1,4 +1,4 @@
-import XMemoryDAO from "./Memory/XMemoryDAO.js";
+import SondaMemoryDAO from "./Memory/SondaMemoryDAO.js";
 
 class Factory{
     constructor(){
@@ -7,7 +7,7 @@ class Factory{
 
     static factory=(modo)=>{
         if(modo =="memory"){
-            return {XDao:new XMemoryDAO()}
+            return {SondaDao:new SondaMemoryDAO()}
         }
     }
 }

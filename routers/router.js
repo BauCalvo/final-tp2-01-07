@@ -1,7 +1,7 @@
 import{Router} from "express"
-import xRoutes from "./xRoutes.js";
+import sondaRoutes from "./sondaRoutes.js";
 
 const router =Router();
-router.use("/x",xRoutes);
+router.use("/sonda",sondaRoutes);
 
 export default router;
